@@ -21,6 +21,8 @@ version "5.7.3" do
   source md5: "d4a3459e1577d0efa8d96ca70a885e53"
 end
 
+dependency 'perl'
+
 source url: "https://downloads.sourceforge.net/project/net-snmp/net-snmp/#{version}/net-snmp-#{version}.tar.gz",
        extract: :seven_zip
 
